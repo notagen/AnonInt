@@ -1,0 +1,2 @@
+java -jar .\arxaas-2020.02.24-16.04-366f0cde73f4-javadoc.jar
+streamlit run home.py

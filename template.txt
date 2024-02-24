@@ -1,0 +1,14 @@
+Identifiers:first name,last name
+MyFirstTempl:first name,diabetes,Clinical_activity
+TSH:TSH,TSH_measured
+neww:address,postcode
+hjhj:first name,address
+sensitive:first name,last name,diabetesMed
+lalala:meanCRP_over_5_in3y,AgeBaseline,HistoryCHD
+TESTtEMPLATE:first name,last name,postcode,diabetes,AgeBaseline,Sex
+first18:first name,last name,address,postcode,age,sex,race,bmi,children,arterial_hypertension,diabetes,dyslipidemia,CTC_1_0to20mgperday_2_over20mg,immunossupressants,TNFi,meanCRP_over_5_in1y,meanCRP_over_5_in3y,Clinical_activity
+mineeee:first name,last name,age,sex,race,children,arterial_hypertension,CTC_1_0to20mgperday_2_over20mg,Total_Bilirubin,thyroid_surgery,A1Cresult
+:first name,last name,postcode,address,sex,bmi,arterial_hypertension
+:first name,last name,postcode,address,sex,bmi,arterial_hypertension,age,race,children,diabetes,dyslipidemia,CTC_1_0to20mgperday_2_over20mg,immunossupressants,TNFi
+omg2:first name,last name
+aaaa:sex,age
