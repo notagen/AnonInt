@@ -17,8 +17,15 @@ if metadataButton:
     metadata.validate()
     st.write(metadata)
 
-gaussianButton = st.button('Generate Synthetic')
+gaussianButton = st.button('Generate Synthetic Gaussian')
 if gaussianButton:
+    gaussianSynth = GaussianCopulaSynthesizer(st.session_state.metadata)
+    gaussianSynth.fit(real)
+    synthetic_data_gaussian = ctganSynth.sample(100)
+    st.write(synthetic_data_gaussian)
+
+ctganButton = st.button('Generate Synthetic CTGAN')
+if ctganButton:
     ctganSynth = CTGANSynthesizer(st.session_state.metadata)
     ctganSynth.fit(real)
     synthetic_data_ctgan = ctganSynth.sample(100)
