@@ -1,11 +1,12 @@
 import requests
 import streamlit as st
+import pandas as pd
 from pyarxaas import Dataset
 
 url = "http://localhost:8080"
 analyseUrl = "http://localhost:8080/api/analyze"
 
-data2 = st.session_state.dtst._payload()
+data2 = st.session_state.servicePayload
 st.write(data2)
 st.write(st.session_state.dtst)
 
@@ -45,8 +46,10 @@ data1 =  {"data" : [ [ "age", "gender", "zipcode" ], [ "34", "male", "81667" ], 
 } 
 
 response = requests.post(analyseUrl,json=data2)
+df = pd.DataFrame(response.json())
+st.write(df)
+st.session_state.result = df
 
-st.write(response.text)
 
 
 # dataframe --> dicr = {"data":[[columns], [...], [...]]

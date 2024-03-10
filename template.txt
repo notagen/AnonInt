@@ -12,3 +12,9 @@ mineeee:first name,last name,age,sex,race,children,arterial_hypertension,CTC_1_0
 :first name,last name,postcode,address,sex,bmi,arterial_hypertension,age,race,children,diabetes,dyslipidemia,CTC_1_0to20mgperday_2_over20mg,immunossupressants,TNFi
 omg2:first name,last name
 aaaa:sex,age
+not_this:sick,query_hypothyroid
+incs:age,sex,race,bmi,children
+insurance2:age,sex,bmi,children,smoker,region,charges
+noAge:sex,bmi,children,smoker,region,charges
+:sex,children,smoker,region,charges
+noNumbers:sex,children,smoker,region,charges
